@@ -1,4 +1,4 @@
-# https://www.mit.edu/~ecprice/wordlist.10000
+# List of words: https://www.mit.edu/~ecprice/wordlist.10000
 
 with open("Wordlist.txt", "r") as word_list:
     list_of_words = [word.strip("\n") for word in word_list.readlines()]
